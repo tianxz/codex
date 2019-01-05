@@ -1,0 +1,5 @@
+rootProject.name = 'codex-build'
+include 'component:tools'
+include 'component:utils'
+findProject(':component:tools')?.name = 'tinker-codex-tools'
+findProject(':component:utils')?.name = 'tinker-codex-utils'
